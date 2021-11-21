@@ -1,0 +1,20 @@
+.noti-icon-badge {
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    right: -4px;
+    border: 2px
+ solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    background-color: #22a66d;
+    width: 18px;
+    height: 18px;
+    align-self: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 1px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #fff;
+    font-size: 0.65rem;
+}

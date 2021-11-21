@@ -1,0 +1,213 @@
+#datatable th, .datatable1 th{
+font-style: normal;
+font-weight: bold !important;
+color: #747576;
+letter-spacing: 0.05em;
+padding-left: 16px;
+font-family: 'Biotif-regular';
+
+}
+
+.subscription_select_div:hover{
+    box-shadow: 0px 0px 16px 2px rgb(4 154 89 / 30%);
+}
+#datatable thead tr{
+    border-bottom:1px solid  #e3e3e3
+}
+
+.rate_span{
+    background: #F0F1F9;
+border-radius: 22px;
+color: #111827;
+}
+[type='checkbox'], [type='radio']{
+    color:#049A59 !important
+}
+input:focus{
+    outline:  none !important;
+}
+table{
+    border-radius: 8px;
+}
+table.dataTable tbody th, table.dataTable tbody td{
+    padding-left: 0px !important;
+}
+table.dataTable tbody tr:hover{
+    background-color: #F9FAFB !important;
+}
+table tr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+table th{
+    width: 100% !important
+}
+.wrapper-select2 {
+    width: 500px;
+    position: relative;
+    border-radius: 100px;
+}
+.select2-selection--single {
+    border-radius: 50px;
+    padding-left: 7px;
+    border: none !important;
+
+}
+.select2-container {
+    width: 100% !important;
+}
+.wrapper-select2 .btn-cancel, .wage_wrapper-select2 .btn-cancel {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.wrapper-select2 .btn-search {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+}
+.select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow {
+    display: none;
+}
+.search-bar {
+    display: flex;
+}
+.whitebackground_search{
+    Border: 1px #D4D4D4 solid
+}
+#datatable_info {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    width: 120px;
+    -webkit-appearance: none;
+    background-color: #D9DAE4;
+    border-radius: 10px;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 15px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 15px;
+    border-radius: 10px;
+    cursor: ew-resize;
+    background: white;
+    box-shadow: -85px 0 0 80px #A3A6CC, 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+  }
+
+  .filter-string{
+      color:#111827;
+  }
+
+  .mobile_view{
+      display: none;
+  }
+  .mobile_view_flex{
+      display: none;
+  }
+  .mobile_profile_rate_view{
+    display:none
+    }
+    .desc_profile_rate_view{
+        display:inline-flex;
+    }
+  .desc_view{
+      display:block;
+  }
+  .table_view{
+      display:table
+  }
+  .swal2-container{
+      z-index: 9999999999;
+  }
+.profile_tab_inactive{
+    background: #fff; padding: 8px 12px; border-radius: 6px; font-style: normal; font-weight: normal; color: #727497;
+}
+.profile_tab_active{
+    background: #F8F8FC; padding: 8px 12px;border-radius: 6px;font-style: normal; font-weight: bold; color: #020c22;
+}
+.paymentTable_filter_section{
+    margin-left: auto;
+}
+
+  @media only screen and (max-width: 1028px) {
+    .shifttable_second_td{
+        padding-left:50px !important
+    }
+    .shift_table_image{
+        margin-top:85px;
+    }
+    .shift_table_image1{
+        margin-top:120px;
+
+    }
+    table.dataTable tbody th, table.dataTable tbody td{
+        padding:0px 8px
+    }
+    .paymentTable_filter_section{
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+/* ::-webkit-scrollbar {
+    display: none;
+  } */
+@media only screen and (max-width: 800px) {
+    .mobile_view{
+        display:block
+    }
+    .mobile_view_flex{
+        display:flex
+    }
+    .desk_view{
+        display:none;
+    }
+    .mobile_profile_rate_view{
+        display:inline-flex
+    }
+    .desc_profile_rate_view{
+        display:none;
+    }
+    .rate_span{
+        padding:5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .table_view{
+        display:none;
+    }
+    #datatable_wrapper, #datatable_wrapper1, #datatable1_paginate, #DataTables_Table_0_paginate{
+        display:none !important
+    }
+    .mobile_td{
+        border-bottom:1px solid #E5E7EB;
+        
+    }
+    .mobile_sortBy{
+        font-style: normal;
+        font-weight: bold !important;
+        color: #747576;
+        letter-spacing: 0.05em;
+        font-size:12px;
+        align-self: center;
+        font-family: 'Biotif-regular';
+        padding-top: 3px;
+    }
+}
+

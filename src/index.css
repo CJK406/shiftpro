@@ -1,0 +1,89 @@
+@tailwind base;
+
+* {
+    box-sizing: border-box;
+}
+
+button:focus {
+    @apply outline-none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    @apply text-main;
+}
+
+p {
+    @apply text-paragraph;
+}
+
+@tailwind components;
+
+.btn {
+    @apply inline-block py-2 px-6 font-medium text-white border border-transparent rounded-full shadow-sm   focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald;
+}
+
+.btn-full {
+    @apply btn flex justify-center w-full;
+}
+
+@tailwind utilities;
+
+.brand-gradient {
+    background-image: linear-gradient(
+        120deg,
+        rgba(237, 190, 2, 0.272) 0,
+        #fff 30%,
+        rgba(3, 156, 90, 0.589) 90%,
+        rgba(237, 190, 2, 0.156)
+    );
+}
+
+.page-title {
+    @apply text-4xl pb-0 pt-4 text-left;
+}
+
+/* Note - classes below are meant for use with the already built in system for tracking active routes of vue-router */
+.router-link-exact-panel-controller-tab {
+    @apply border-emerald text-black font-extrabold;
+}
+
+.router-link-nav-link {
+    color:#111827 !important;
+}
+.router-link-nav-link-dashboard{
+    color:#111827;
+    font-weight: bold;
+    border-bottom: 3px solid #049A59;
+
+}
+.router-link-nav-link svg{
+    color: #049A59  !important;
+}
+
+/* Grid for the candidate PaymentHistory */
+.payment-template-areas {
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "d e";
+}
+
+.area-a {
+    grid-area: a;
+}
+.area-b {
+    grid-area: b;
+}
+.area-c {
+    grid-area: c;
+}
+.area-d {
+    grid-area: d;
+}
+.area-e {
+    grid-area: e;
+}
